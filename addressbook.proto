@@ -1,0 +1,35 @@
+syntax = "proto3";
+package protobuf;
+
+message Message {
+    int32 client_id = 1;
+    string client_name = 2;
+    AddressBook book = 3;
+}
+
+message Person {
+    string name = 1;
+    int32  id = 2; //Unique number for this person
+    string email = 3;
+
+    enum PhoneType {
+        MOBILE = 0;
+        WORK = 1;
+        HOME = 2;
+    }
+
+    message PhoneNumber {
+        string number = 1;
+        PhoneType type = 2;
+    }
+
+    repeated PhoneNumber phones = 4;
+}
+
+message AddressBook {
+    repeated Person people = 1;
+}
+
+
+
+
