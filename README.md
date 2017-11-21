@@ -5,3 +5,5 @@ This is a very basic vanilla program to depict the usage of protocol buffers to 
 
 I am using golang for the first time to implement this. I have a similar requirement in my current project in work and starting off with a small application seems to be the right starting point to help me wrap my head around protocol buffers and golang.
 
+Dependency - 
+* Protocol Buffers - https://github.com/google/protobuf
