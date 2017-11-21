@@ -7,3 +7,4 @@ I am using golang for the first time to implement this. I have a similar require
 
 Dependency - 
 * Protocol Buffers - https://github.com/google/protobuf
+* Golang - https://golang.org/
